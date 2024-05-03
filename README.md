@@ -1,13 +1,22 @@
-# Prerequisites
+# GPT4DFCI API 🔌
+
+**Welcome to the code repository for GPT4DFCI API, the API client of [GPT4DFCI](https://github.com/Dana-Farber-AIOS/GPT4DFCI), which a private and secure generative AI tool, based on GPT-4 and deployed for non-clinical use at Dana-Farber Cancer Institute.**
+
+This repository is organized in the following sections:
+
+* Prerequisites
+* Run the GPT4DFCI API demo
+
+## ⚙️  Prerequisites
 
 [Poetry](https://python-poetry.org) is a tool for dependency management and packaging in Python used by a number of the demos.
 
 If you are already familiar with Poetry, or are comfortable setting up your own environment with other tools, you can probably skip this.
 
-## Installing Poetry
+### Installing Poetry
 https://python-poetry.org/docs/#installation
 
-### For macOS this would be the suggested way:
+#### For macOS this would be the suggested way:
 
 - Install brew: 
 
@@ -20,7 +29,7 @@ https://python-poetry.org/docs/#installation
 brew install poetry
 ```
 
-## Installing GPT4DFCI API dependencies
+### Installing GPT4DFCI API dependencies
 
 After installing Poetry, navigate to the directory you are interested in and run:
 
@@ -43,9 +52,9 @@ source .venv/bin/activate
 ```
 
 
-# Run GPT4DFCI API demo
+## 🟢  Run the GPT4DFCI API demo
 
-## Set up environment variables
+### Set up environment variables
 In a file called `.env`, fill in the following values:
 
 ```
@@ -75,16 +84,16 @@ az login
 Close the window after logging in and get back to the shell.
 
 
-## VPN
+### VPN
 
 **Turn on the VPN.**
 
-## Run the demo
+### Run the demo
 ```
 export $(cat .env | xargs) && python demo.py
 ```
 
-## Shutting down
+### Shutting down
 
 When finished working, shut the current virtual environment with
 
@@ -92,7 +101,7 @@ When finished working, shut the current virtual environment with
 deactivate
 ```
 
-## Resuming work
+### Resuming work
 
 When you are read to resume working on this, come back to this folder and resume working with
 

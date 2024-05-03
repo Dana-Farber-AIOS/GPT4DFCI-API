@@ -82,7 +82,7 @@ brew install azure-cli
 Then, make sure you are logged in via the Azure CLI to an account that has been granted access to the GPT4DFCI API.
 
 ```
-az login
+az login --allow-no-subscriptions
 ```
 
 Close the window after logging in and get back to the shell.

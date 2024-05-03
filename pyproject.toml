@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "gpt4dfci-api"
+version = "0.1.0"
+description = ""
+authors = ["GPT4DFCI Dev Team <aios@DFCI.HARVARD.EDU>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "^1.13.3"
+azure-identity = "^1.15.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.2.0"
+ruff = "^0.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

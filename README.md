@@ -6,6 +6,8 @@ This repository is organized in the following sections:
 
 * Prerequisites
 * Run the GPT4DFCI API demo
+* License
+* Contact
 
 ## ⚙️  Prerequisites
 
@@ -64,7 +66,7 @@ AZURE_OPENAI_ENTRA_SCOPE=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 
 `AZURE_OPENAI_ENDPOINT` should be the GPT4DFCI API endpoint, without the `/openai` suffix.
 
-`AZURE_OPENAI_ENTRA_SCOPE` should be the scope required for the bearer token, something like `api://<client_id>`.
+`AZURE_OPENAI_ENTRA_SCOPE` should be the scope required for the bearer token, the UUID `client_id`.
 
 ### Authenticate via Azure CLI
 Prerequisites: [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/)
@@ -109,3 +111,16 @@ When you are read to resume working on this, come back to this folder and resume
 source .venv/bin/activate
 export $(cat .env | xargs) && python demo.py
 ```
+
+# 🎫 License
+
+The GNU GPL v2 version of GPT4DFCI is made available via Open Source licensing. The user is free to use, modify, and distribute under the terms of the GNU General Public License version 2.
+
+Commercial license options are available also, and include additional features.
+
+
+# 📧 Contact
+
+Questions? Comments? Suggestions? Get in touch!
+
+aios@dfci.harvard.edu

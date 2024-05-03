@@ -78,7 +78,7 @@ For macOS this would be
 ```
 brew install azure-cli
 ```
-
+If you are using DFCI AI Studio, you should used `curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash`
 Then, make sure you are logged in via the Azure CLI to an account that has been granted access to the GPT4DFCI API.
 
 ```

@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "gpt4dfci-api"
+name = "GPT4DFCI-API"
 version = "0.1.0"
 description = ""
 authors = ["GPT4DFCI Dev Team <aios@DFCI.HARVARD.EDU>"]

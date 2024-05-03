@@ -90,7 +90,9 @@ Close the window after logging in and get back to the shell.
 
 ### VPN
 
-**Turn on the VPN.**
+```
+Turn on the VPN or make sure you are running from an on-prem resource.
+```
 
 ### Run the demo
 ```

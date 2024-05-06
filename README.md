@@ -1,6 +1,8 @@
-# GPT4DFCI API 🔌
+# GPT4DFCI-API 🔌
 
-**Welcome to the code repository for GPT4DFCI API, the API client of [GPT4DFCI](https://github.com/Dana-Farber-AIOS/GPT4DFCI), which a allows you to leverage GPT4DFCI programmatically in your application.**
+![image](https://github.com/Dana-Farber-AIOS/GPT4DFCI-API/assets/25375373/1e1797a4-0185-49cd-8ff3-910688cb3f9e)
+
+**Welcome to the code repository for GPT4DFCI-API, an example of how to call the API of [GPT4DFCI](https://github.com/Dana-Farber-AIOS/GPT4DFCI), which a allows you to leverage GPT4DFCI programmatically in your application.**
 
 *ℹ️ GPT4DFCI is a private and secure generative AI tool, based on GPT-4 and deployed for non-clinical use at Dana-Farber Cancer Institute. See all details about it in its [code repository](https://github.com/Dana-Farber-AIOS/GPT4DFCI).*
 

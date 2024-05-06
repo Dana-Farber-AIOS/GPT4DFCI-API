@@ -15,7 +15,7 @@ This repository is organized in the following sections:
 
 ## ⚙️  Prerequisites
 
-[Poetry](https://python-poetry.org) is a tool for dependency management and packaging in Python used by a number of the demos.
+[Poetry](https://python-poetry.org) is a tool for dependency management and packaging in Python.
 
 If you are already familiar with Poetry, or are comfortable setting up your own environment with other tools, you can probably skip this.
 
@@ -80,7 +80,7 @@ For macOS this would be
 ```
 brew install azure-cli
 ```
-If you are using DFCI AI Studio, you should used `curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash`
+If you are using DFCI AI Studio, you should use `%sh curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash`
 Then, make sure you are logged in via the Azure CLI to an account that has been granted access to the GPT4DFCI API.
 
 ```

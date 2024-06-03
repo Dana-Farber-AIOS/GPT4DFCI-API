@@ -4,8 +4,8 @@ from azure.identity import DefaultAzureCredential, get_bearer_token_provider
 from openai import AzureOpenAI
 
 # deployment name
-# model = "gpt-4-turbo-0125-api" # this is gpt-4 turbo 0125
-model = "gpt-4-api" # this is gpt-4o-2024-05-13
+# model = "gpt-4-turbo-0125-api" # this is GPT-4 Turbo 0125-preview
+model = "gpt-4o-2024-05-13-api" # this is GPT-4o 2024-05-13
 api_version = "2023-05-15"
 
 endpoint = os.getenv("AZURE_OPENAI_ENDPOINT")

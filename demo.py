@@ -3,10 +3,14 @@ import os
 from azure.identity import DefaultAzureCredential, get_bearer_token_provider
 from openai import AzureOpenAI
 
+# Pick a model from this list: https://wiki.dfci.harvard.edu:8443/aodssud/gpt4dfci-api-437749411.html
+
 # Completion example, pick a model
 # model = "gpt-4-turbo-0125-api" # this is GPT-4 Turbo 0125-preview
-# model = "gpt-4o-mini-2024-07-18-api" # this is GPT-4o mini
-model = "gpt-4o-2024-05-13-api" # this is GPT-4o 2024-05-13
+# model = "gpt-4o-mini-2024-07-18-api" # this is GPT-4o mini v0718
+# model = "gpt-4o-2024-05-13-api" # this is GPT-4o v2024-05-13
+# model = "o1-mini-2024-09-12-api" # This is o1-mini v2024-09-12 
+model = "o1-preview-2024-09-12-api" # This is o1-preview v2024-09-12
 api_version = "2023-05-15"
 
 endpoint = os.getenv("AZURE_OPENAI_ENDPOINT")
